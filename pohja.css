@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  color: black;
+  margin-left:30%;
+  padding:4%;
+ 
+  
+}
+h1 {
+  font-family: Georgia, sans-serif;
+  font-size: 122%;
+  
+}
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 115%;
+  
+}
+p {
+  font-family: Times New Roman, sans-serif;
+  padding: 4%;
+  
+}
+.navbartop a:link, .navbar a:link {
+  text-decoration: none; /* poistaa alleviivauksen */
+}
+.navbartop{
+
+background-color: yellow;
+border-style: solid;
+border-width: thin;
+border-color: black;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width:10em;
+ }
+
+.kuva{
+float:right;
+}
