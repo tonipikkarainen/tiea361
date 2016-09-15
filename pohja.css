@@ -37,8 +37,14 @@ float:right;
 	margin:auto;
 	width:80%;
 	background-color:#bfff80;
-	
+	padding: 3px,3px,3px,3px;
+	border-radius:3px,3px,3px,3px;
 }
 body{
 	background-color:#efb78f;
 }
+.dropdown{
+	margin-top: 3em;
+	margin-left:3em;
+}
+
