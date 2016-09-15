@@ -37,8 +37,9 @@ body{
 	margin-left:3em;
 }
 .kuva{
-	margin:auto;
-	width:90%;
+	margin-left:5%;
+	width:100%;
+	margin-bottom:5%;
 }
 a{
 	color:white;
