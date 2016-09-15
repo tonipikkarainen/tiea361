@@ -1,11 +1,4 @@
-body {
-  background-color: white;
-  color: black;
-  margin-left:30%;
-  padding:4%;
- 
-  
-}
+
 h1 {
   font-family: Georgia, sans-serif;
   font-size: 122%;
@@ -44,7 +37,7 @@ float:right;
 	margin:auto;
 	width:80%;
 	background-color:#bfff80;
-	text-align:center;
+	
 }
 body{
 	background-color:#efb78f;
