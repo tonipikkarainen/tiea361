@@ -41,8 +41,10 @@ float:right;
 }
 
 .content{
-	width:95%;
+	margin:auto;
+	width:80%;
 	background-color:#bfff80;
+	text-align:center;
 }
 body{
 	background-color:#efb78f;
