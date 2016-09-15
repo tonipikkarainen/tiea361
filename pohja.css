@@ -1,23 +1,36 @@
+html{
+	min-height:100%;
+}
 
-
-
+h1{
+	margin:1em 1em 1em 1em ;
+}
+.tiedot{
+	display:block;
+	margin:1em 1em 1em 3em ;
+}
 
 .content{
 	margin:auto;
 	width:80%;
-	background-color:#bfff80;
+	background: #ccffcc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ccffcc, #00cc00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ccffcc, #00cc00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ccffcc, #00cc00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ccffcc, #00cc00); /* Standard syntax */
 	padding: 5em 5em 5em 5em;
 	border-radius:10em 3em 10em 3em;
-	margin-bottom:5em;
+	margin-bottom:3em;
+	
 }
 body{
 	
-	/*background: #43210a; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#43210a, #e99b63); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#43210a, #e99b63); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#43210a, #e99b63); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#43210a, #e99b63); /* Standard syntax */
-    
+	background: #43210a; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e99b63, #43210a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e99b63, #43210a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e99b63, #43210a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e99b63, #43210a); /* Standard syntax */
+    height:100%;
 }
 .dropdown{
 	margin-top: 3em;
@@ -26,6 +39,8 @@ body{
 .kuva{
 	margin:auto;
 	width:90%;
-	
+}
+a{
+	color:white;
 }
 
