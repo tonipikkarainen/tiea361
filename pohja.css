@@ -39,3 +39,11 @@ border-color: black;
 .kuva{
 float:right;
 }
+
+.content{
+	width:80%;
+	background-color:#bfff80;
+}
+body{
+	background-color:#efb78f;
+}
