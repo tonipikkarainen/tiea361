@@ -37,8 +37,9 @@ float:right;
 	margin:auto;
 	width:80%;
 	background-color:#bfff80;
-	padding: 3px,3px,3px,3px;
-	border-radius:3px,3px,3px,3px;
+	padding: 5em 5em 5em 5em;
+	border-radius:10em 3em 10em 3em;
+	margin-bottom:5em;
 }
 body{
 	background-color:#efb78f;
