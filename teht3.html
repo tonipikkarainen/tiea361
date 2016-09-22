@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>OT3</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="pohja.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	
+	<header>
+ <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Oppimistehtävät
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="index.html">Koti</a></li>
+    <li><a href="teht1.html">Tehtävä 1</a></li>
+    <li><a href="teht2.html">Tehtävä 2</a></li>
+	<li><a href="teht3.html">Tehtävä 3</a></li>
+
+  </ul>
+</div>
+</header>
+<div class="content">
+	<h1>Oppimistehtävä 3 / TIE361</h1>
+	<h2>Oppimistilanteen kuvaus</h2>
+	<p>Tehtävä on suunnattu yläkouluikäisille tai lukiolaisille. Tehtävä soveltuu kaikkiin
+	oppiaineisiin, mutta sisällöltään tämä liittyy suurimmaksi osin tietotekniikkaan. Tarkoitus on, että oppilaat tuottavat www-sivun, jota voi käyttää kotisivuna minkä tahansa kurssin oppimistehtäville.
+	Tehtävässä kuluva aika riippuu paljon oppilaiden ennakkotiedoista. Ohjeiden avulla luulisin, että
+	menee 2-6 tuntia.
+	</p>
+	<h2>Tavoitteet</h2>
+	<p>
+	Tavoitteena on oppia html:n ja css:n kirjoittamista. Tehtävä keskittyy
+	enemmän css:ään ja html-koodi tulee enemmän annettuna. css:ään liittyen harjoitellaan etenkin
+	float, margin, padding, background ja color komentoja. www-sivun varsinainen julkaiseminen
+	jätetään toiseen tehtävään.
+	</p>
+	<p>
+	Oppilailla olisi hyvä olla vähän kokemusta www-sivujen tekemisestä, mutta tehtävä onnistuu
+	varmasti ainakin opettajan avulla ensikertalaiseltakin.
+	</p>
+	<p>OPS:in kannalta tavoitteet liittyvät tieto- ja viestintäteknologiseen osaamiseen (L5). 
+	Erityisesti tehtävä liittyy kohtaan <q> käytännön taidot ja oma tuottaminen</q>. Lisäksi
+	tehtävä liittyy myös kohtaan <q> Tiedonhallinta sekä tutkiva ja luova työskentely</q>, 
+	sillä oppilaita ohjataan myös itse etsimään tietoa www-sivujen tuottamiseen liittyen.
+	</p>
+	<h2>Tehtävänanto</h2>
+	<p>
+	Tuota www-sivu, jota voit käyttää minkä tahansa kurssin oppimistehtäviesi kotisivuna. Sivun
+	pitää olla asemoinniltaan mallisivun mukainen:</p>
+	<img src="mallisivuot3.png" id="malli">
+	<p>
+	Eli ylhäällä pitää olla header-osio ja linkit pitää olla erillisessä navigointipalkissa
+	vasemmalla. Lisäksi navigointipalkin viereen tehdään sisältö osio.
+	</p>
+	<h3>Tarkemmat ohjeet</h3>
+	<p>Aloita luomalla uusi <strong>kansio</strong> omalla nimellasi ("etunimi_sukunimi"). Avaa sitten tekstieditori
+	(esim. notepad++) ja kopioi seuraava koodi pohjaksi html-tiedostollesi:
+	<pre>
+	<code>
+	&lt;!DOCTYPE html&gt;
+	&lt;html&gt;
+		&lt;head&gt;
+			&lt;meta charset="UTF-8"&gt;
+			&lt;title>example&lt;/title&gt;
+		&lt;/head&gt;
+		&lt;body&gt;
+		&lt;/body&gt;
+	&lt;/html&gt;
+	</code>
+	</pre>
+	Tallenna tiedosto kansioosi nimellä <strong>"index.html"</strong>.
+	Lisää sopiva title ja lisää body-osioon ensimmäiseksi header-elementti. Tee headeriin
+	otsikko, joka voisi olla esim. kurssin nimi. Seuraavaksi lisää body-osioon div-elementti, joka
+	tulee pitämään sisällään navigointipalkin ja sisällön. 
+	</p>
+	<p>
+	Seuraavaksi lisää tekemääsi div:iin nav-elementti ja sen sisään järjestämätön lista (ul).
+	Tee listaan muutama tehtävälinkki mallin vuoksi. Seuraavaksi lisää section-elementti, jonka
+	sisään tulemme sijoittamaan sivun sisällön. Nyt body-elementin sisältö pitäisi näyttää suunnilleen
+	tältä:
+	<pre>
+	<code>
+	&lt;header&gt;
+		&lt;h1&gt;XXX-KURSSIN TEHTÄVIÄ&lt;/h1&gt;
+	&lt;/header&gt;
+		
+	&lt;div class=""&gt;
+		&lt;nav class=""&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="#" class=""&gt;TEHT. 1&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#" class=""&gt;TEHT. 2&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#" class=""&gt;TEHT. 3&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#" class=""&gt;TEHT. 4&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#" class=""&gt;TEHT. 5&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#" class=""&gt;TEHT. 6&lt;/a&gt;&lt;/li&gt;
+				
+			&lt;/ul&gt;
+		&lt;/nav&gt;
+		&lt;section class=""&gt;
+		&lt;h2&gt;"Esimerkkikurssin nimi"&lt;/h2&gt;
+		&lt;p&gt;Tältä sivulta löytyy linkit kaikkiin oppimistehtäviini, jotka olen
+		kurssilla tehnyt.&lt;/p&gt;
+		&lt;/section&gt;
+	&lt;/div&gt;
+	</code>
+	</pre>
+	Kokeile nyt miltä sivu näyttää selaimessa klikkaamalla index.html tiedostoasi. Seuraavaksi
+	tavoitteena on muotoilla sivun ulkonäköä css-tiedoston avulla.
+	</p>
+	<h4>CSS-tiedosto</h4>
+	<p>
+	Kyseessä on siis <strong>tyylitiedosto</strong>, jolla voidaan esim. asemoida elementit halutulla tavalla
+	ja määrittää väriominaisuuksia. Luo uusi tiedosto kansioosi haluamallasi nimellä, kunhan tiedoston
+	pääte on <strong>.css</strong> (esim. "ulkoasu.css"). Voimme määrittää tietyille elementeille ulkoasun seuraavalla
+	syntaksilla:
+	<pre>
+	<code>
+	h1{
+	  font-size:14px;
+	  color:red;
+	}
+	</code>
+	</pre>
+	
+	Tällainen merkintä asettaisi kaikille <strong>h1</strong>-tason otsikoille fonttikooksi 14 pikseliä ja väriksi
+	punaisen.
+	</p>
+	<p>
+	Elementtejä voidaan valita myös elementille annettavan <strong> luokan</strong> perusteella.
+	Mallikoodissa onkin tietyille elementeille jo luokkamääritys kirjoitettu, ainoastaan luokkien
+	nimet täytyy lisätä itse. Jos oletetaan, että annetaan navigointiluokan nimeksi "navbar",
+	voidaan sen ulkoasua muokata kirjoittamalla css-tiedostoon:
+	<pre>
+	<code>
+	.navbar{
+	  background-color:#DAECF7;
+	}
+	</code>
+	</pre>
+	Eli luokkien nimien eteen pitää css-tiedostossa laittaa <strong>piste</strong>. Elementtejä voidaan valita
+	myös id-ominaisuuden perusteella, mutta jätetään se toistaiseksi käsittelemättä.
+	</p>
+	<p>
+	Valinta voidaan tehdä css-tiedostossa myös siten, että kohdistetaan valinta esim. kaikkiin
+	"navbar"-luokan sisällä oleviin linkkeihin &lt;a&gt;:
+	<pre>
+	<code>
+	.navbar a{
+	  color:white;
+	}
+	</code>
+	</pre>
+	</p>
+	<h5>Ulkoasun muotoilu</h5>
+	<p>
+	Jos sivun reunoihin halutaan hiukan tilaa, voit asettaa &lt;body&gt;-elementin leveydeksi
+	<strong>(width)</strong>haluamasi prosenttimäärän (alle 100) ja kirjoittaa marginaaliksi "auto".
+	<pre>
+	<code>
+	body{
+	  width:90%;
+	  margin:auto;
+	}
+	</code>
+	</pre>
+	Tällöin kaiken <strong>bodyn</strong> sisällä olevan leveys on 90 % selaimen leveydestä ja marginaalit
+	asettuvat automaattisesti yhtä suuriksi.
+	</p>
+	<p>
+	Muotoillaan sitten <strong>&lt;header&gt;</strong>. Aseta leveydeksi 100% (tämä on siis 100 % bodyn leveydestä,
+	koska header on bodyn sisällä). Aseta sille myös haluamasi taustaväri, jonka voit antaa esim.
+	<strong>heksa-koodina</strong> (löydät värikoodit esim. <a href="http://www.w3schools.com/colors/colors_picker.asp">täältä</a>).
+	Aseta sille myös korkeus käyttäen <strong>height-ominaisuutta</strong>. Voit käyttää esim. yksikköä "em",
+	joka on suhteessa elementissä vallitsevaan fontin kokoon. Saat tekstin pystysuunnassa
+	keskelle, kun asetat elementin rivikorkeuden yhtäsuureksi kuin sen korkeuden:
+	<pre>
+	<code>
+	header{
+	  height:6em;
+	  line-height:6em;
+	}
+	</code>
+	</pre>
+	Voit myös muuttaa taustaväriä ja tekstin väriä. Etsi netistä, mitä saisit aikaan 
+	<strong>text-align</strong>-ominaisuutta muuttamalla.
+	</p>
+	<p>
+	Tehdään seuraavaksi <strong>navigointipalkki</strong>. Valitse ensin &lt;div&gt;-elementti, jonka sisällä
+	navigointi ja sisältö ovat ja aseta sen leveydeksi 100%. Sitten valitse &lt;nav&gt;-elementti
+	ja anna sille haluamasi leveys. Se saadaan vasempaan laitaan, kun kirjoitetaan sille <strong> float-ominaisuudeksi</strong>
+	"left". Nyt palkki ja sen sisällä olevat linkit pitäisi olla vasemmalla. Voit muotoilla linkkejä
+	ja navigointipalkkia haluamallasi tavalla (esim. taustaväri ja väri). 
+	</p>
+	<p>
+	Saat listaelementeistä sivumerkit pois kun kirjoitat listalle:
+	<pre>
+	<code>
+	ul{
+	  list-style-type:none;
+	}
+	</code>
+	</pre>
+	Linkkejä voit muokata soveltamalla tähän asti opittua. Linkeistä saat tehtyä laatikkomaisia
+	elementtejä asettamalla <strong>"display:block;"</strong>. Muotoilussa ylipäätänsä on hyvä muistaa, 
+	että <strong>margin-ominaisuus</strong> muuttaa tilaa elementin reunojen ulkopuolella ja
+	<strong>padding-ominaisuus</strong> muuttaa tilaa elementin reunojen sisäpuolella.
+	</p>
+	<p>
+	Muotoillaan vielä &lt;section&gt;-elementti, josta löytyy sisältö. Tämä saadaan navigointipalkin
+	viereen, kun annetaan sillekin <strong>float-ominaisuudeksi</strong> "left" ja annetaan sille
+	leveys, joka on 100%-(navigointipalkin leveys). Jos haluat, että sen ja navigointipalkin
+	väliin jää vähän tilaa, anna <strong>margin-left -ominaisuudeksi</strong> haluamasi prosenttimäärä
+	ja huomioi se kokonaisleveydessä.
+	</p>	
+	<p>Käytä myös itse aktiivisesti internettiä ongelmatilanteissa. Kaikkiin ongelmiin
+	löytyy kyllä ratkaisu, kun hetken etsii.
+	</p>
+	<a href="teht3malli.html">Mallivastaus</a>
+	</body>
+</html>

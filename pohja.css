@@ -13,11 +13,11 @@ h1{
 .content{
 	margin:auto;
 	width:80%;
-	background: #ccffcc; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#ccffcc, #00cc00); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#ccffcc, #00cc00); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#ccffcc, #00cc00); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#ccffcc, #00cc00); /* Standard syntax */
+	background:white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #DAECF7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #DAECF7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #DAECF7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #DAECF7); /* Standard syntax */
 	padding: 5em 5em 5em 5em;
 	border-radius:10em 3em 10em 3em;
 	margin-bottom:3em;
@@ -42,6 +42,13 @@ body{
 	margin-bottom:5%;
 }
 a{
-	color:white;
+	color:blue;
+}
+
+#malli{
+	width:100%;
+	border:1px solid black;
+	margin-bottom:5%;
+	margin-top:5%;
 }
 

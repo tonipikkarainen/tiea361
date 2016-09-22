@@ -1,0 +1,70 @@
+html{
+	min-height:100%;
+}
+
+body{
+	width:90%;
+	margin:auto;
+	height:100%;
+}
+
+header{
+	width:100%;
+	background:#0076D7;
+	color:white;
+	text-align:center;
+	height:5em;
+	line-height:5em;
+}
+
+.content{
+	width:100%;
+	margin-top:1em;
+	height:30em;
+
+}
+
+.navbar{
+	width:20%;
+	float:left;
+	background-color:#DAECF7;
+	/*background:#F8F8F8;*/
+	height:100%;
+}
+
+.navbar ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+.navbar a{
+	text-decoration:none;
+	display:block;
+	height:3.4em;
+	line-height:3.4em;
+	padding-left: 2em;
+}
+
+.even{
+	background:#53B9E6;
+	color:white;
+}
+
+.odd{
+	background:#0076D7;
+	color:white;
+}
+
+.main{
+	background-color:#DAECF7;
+	width: 77%;
+	margin-left:3%;
+	height:100%;
+	float:left;
+}
+
+.main h2, .main p{
+	padding-left:5%;
+	padding-right:5%;
+}
