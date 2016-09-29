@@ -52,3 +52,17 @@ a{
 	margin-top:5%;
 }
 
+table{
+	border: solid black 1px;
+}
+
+table td{
+	border: solid black 1px;
+	border-spacing: 1px;
+	padding:0.5em 1em 0.5em 1em;
+}
+
+
+table th{
+	text-align:center;
+}
