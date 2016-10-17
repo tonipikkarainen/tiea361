@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>OT6</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="pohja.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		  <script type="text/javascript" src="oma.js"></script>
+	</head>
+	<body>
+	
+	<header>
+ <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Oppimistehtävät
+  <span class="caret"></span></button>
+  <ul id="dropLista" class="dropdown-menu">
+   
+  </ul>
+</div>
+</header>
+<div class="content">
+	<h1>Oppimistehtävä 6 / TIE361 / Ilmaisohjelmat opetuskäytössä</h1>
+	<h2>Alustus</h2>
+    <p> Tehtävässä oli tarkoitus lähestyä ilmaisohjelmien käyttöä joko oppilasnäkökulmasta
+    (oppilaat käyttävät ilmaisohjelmia) tai opettajanäkökulmasta (opettaja käyttää ja tekee
+    esim. demonstraation ilmaisohjelmalla). Tuotoksessani yhdistyy tavallaan molemmat 
+    näkökulmat. Eli opettaja toteuttaa geogebralla oppilaille tehtävän. Oppilaat siis
+    käyttävät ilmaisohjelmalla tehtyä sovellusta. Ehkä kyseessä kuitenkin on enemmän
+    <strong>opettajanäkökulma</strong>.</p> 
+    <h2>Oppimistilanteen kuvaus</h2>
+    <p>
+    Tehtävä liittyy lukion matematiikkaan. Oppilaat etenevät tehtävänannon mukaisesti
+    ja käyttäen apunaan tehtävään liitettyä Geogebra-sovellusta johtavat lausekkeen ympyrän
+    pinta-alalle. Oletetaan, että ympyrän piirin lauseke tunnetaan. Tehtävään riittää
+    todennäköisesti 1 tunti. Ajatus on, että oppilaille annetaan tehtävän osoite ja oppilaat
+    voivat suorittaa tehtävän sen jälkeen itsenäisesti. Toki opettaja kiertää luokassa ja 
+    auttaa tarpeen mukaan. 
+    </p>
+    <p>Linkki tehtävään: <a href="http://tonipikkarainen.github.io/jekyll/update/2016/10/14/monikulmioala.html">
+    Ympyrän pinta-ala.</a></p>
+    <h2>Tavoitteet</h2>
+   
+    <p>Matematiikan kannalta tavoitteet liittyvät etenkin pitkän matematiikan 3. kurssin (MAA3)
+    sisältöihin. Keskeisiä sisältöjä kurssissa ovat esim.</p>
+    <ul>
+        <li>ympyrän, sen osien ja siihen liittyvien suorien geometria</li>
+        <li>kuvioihin ja kappaleisiin liittyvien pituuksien, kulmien, pinta-alojen ja tilavuuksien 
+    laskeminen</li>
+    </ul>
+    <p>Tehtävässä johdetaan ympyrän pinta-alan kaava käyttäen hyväksi kolmion pinta-alaa. Tämän
+    takia tehtävän tavoitteet liittyvät myös seuraaviin lukion OPS:sissa matematiikan kohdalla
+    esitettyihin tavoitteisiin:</p>
+    <ul>
+        <li>rohkaistuu kokeilevaan ja tutkivaan toimintaan, ratkaisujen keksimiseen sekä niiden kriittiseen arviointiin</li>
+        <li>oppii näkemään matemaattisen tiedon loogisena rakenteena</li>
+        <li>kehittää lausekkeiden käsittely-, päättely- ja ongelmanratkaisutaitojaan </li>
+    </ul>
+   
+    
+	<h2>Käytettävä ohjelma</h2>
+    <p>Tehtävän tekemiseen on käytetty <strong>Geogebra</strong>-ohjelmistoa. Sen voi
+    ladata eri käyttöjärjestelmille osoitteesta <a href="https://www.geogebra.org/download">
+    https://www.geogebra.org/download</a>. Kun ohjelmaa käyttää opettajana, kannattaa se 
+    ladata omalle koneelle ja myös kirjautua Geogebran sivuilla käyttäjäksi. Näin voit
+    tehdä opetukseen käytettäviä sovelluksia omalla koneellasi ja ladata ne käyttäjätilillesi
+    Geogebra-tubeen. Sieltä voit helposti upottaa sovelluksesi esim. omalle kotisivullesi
+    tai vain jakaa linkin, joka johtaa sovellukseesi Geogebra-tubeen.</p> 
+ 
+    <h3>Geogebran käyttö</h3>
+    <p>Jotta Geogebralla saa tehtyä interaktiivisen sovelluksen, vaaditaan toki hiukan
+    ohjelmaan tutustumista. Paras tapa opetteluun on se, että on olemassa idea ja 
+    sitten lähdetään etsimään netistä tietoa siitä, kuinka sen voisi toteuttaa. Manuaali löytyy
+    täältä <a href="http://www.geogebra.org/manual/en/Manual">http://www.geogebra.org/manual/en/Manual</a></p>
+    <p>Kerron nyt hiukan, mitä temppuja käytin omassa sovelluksessani. Tein liukukytkimen, jolla
+    voidaan säätää muuttujan <strong>n</strong> arvoa. Sitten loin kulman &alpha; = 360&deg;/n.
+    Seuraavaksi loin pisteet A ja B. Pisteen C tein seuraavaksi siten, että se on Kierto[B,&alpha;,A].
+    Eli piste A on akseli, jonka ympäri kierretään ja kierretään siis pisteestä B kulman &alpha; 
+    verran. Näin saadaan aikaan tilanne, että piste C lähestyy pistettä B, kun <strong>n</strong>
+    kasvaa. Seuraavaksi luodaan säännöllinen monikulmio Monikulmio[B, C, n]. Eli tehdään se pisteiden
+    B ja C kautta ja kulmien lukumäärä on <strong>n</strong>. Näin saadaan aikaan sovelluksessa 
+    esiintyvä monikulmio. Muuhun osaan kuvion luonnista löytyy paljon ohjeita esim. em. manuaalista.
+    </p>
+    <p>Interaktiivisten kysymysten luomiseen käytin Geogebran omaa Geogebra-script -ohjelmointikieltä.
+    En kirjoita tässä yhteydessä tarkempaa ohjeistusta tähän kieleen vaan pelkästään linkin
+    havainnollistavaan videoon: <a href="https://www.youtube.com/watch?v=9bBWkYbQNEM">https://www.youtube.com/watch?v=9bBWkYbQNEM</a>.
+    Tämän videon avulla sain tehtyä sovelluksessa käyttämäni skriptit.
+    </p>
+
+    </body>
+	
+</html>

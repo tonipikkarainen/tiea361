@@ -12,7 +12,7 @@ window.onload=function(){
 	lista.appendChild(kotiLi);
 	//kotiA.setAttribute("value","Koti");
 	kotiA.textContent = "Koti";
-	for(var i=0 ; i<5 ; i++){
+	for(var i=0 ; i<6 ; i++){
 		var luku = i+1;
 		var listaLi = document.createElement("li");
 		var listaA = document.createElement("a");
