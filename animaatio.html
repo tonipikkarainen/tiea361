@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+		
+        <title>animaatio</title>
+        <link href="pohja.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="animaatio.js"></script>
+      <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+      </script>
+  
+    <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  </head>
+  <body>
+    <canvas id="myCanvas" class="canvas" width="500" height="500"></canvas>
+    <div class="startNapit">
+    <p><input type="button" id="start" value="käynnistä"/></p>
+    <p><input type="button" id="stop" value="pysäytä"/></p>
+    </div>
+    <div class="radiot" id="radiot">
+    <p>Valitse tutkittava funktio:</p>
+    <p><label>\(f(x)=sin(x)\) <input name="funktio" value="0" type="radio" checked="checked" ></label></p>
+    <p><label>\(f(x)=x^2\)<input name="funktio" value="1" type="radio"></label></p>
+    <p><label>\(f(x)=x\)<input name="funktio" value="2" type="radio"></label></p>
+    </div>
+    </body>
+</html>
+      

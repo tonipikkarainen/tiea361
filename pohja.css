@@ -72,3 +72,17 @@ table th{
     width:50%;
     margin: 0 25% 0 25%;
 }
+
+.canvas{
+    float:left;
+}
+
+.startNapit{
+    float:left;
+    margin-left:3em;
+    margin-right:3em;
+}
+
+.radiot{
+    float:left;
+}
